@@ -1,14 +1,17 @@
-# Byte-code / キャッシュ
+# Python
+.venv*/
 __pycache__/
 *.py[cod]
 
-# 仮想環境
-.venv/
+# Swift / Xcode
+DerivedData/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcuserstate
 
-# ビルド生成物
-/build
-*.dmg
-
-# macOS 系
+# macOS
 .DS_Store
 
+# Audio / tmp
+input.wav
+*.mid
