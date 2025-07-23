@@ -1,0 +1,14 @@
+# Byte-code / キャッシュ
+__pycache__/
+*.py[cod]
+
+# 仮想環境
+.venv/
+
+# ビルド生成物
+/build
+*.dmg
+
+# macOS 系
+.DS_Store
+
